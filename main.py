@@ -18,10 +18,8 @@ for account in accounts_page:
 
 # List products
 products_page = client.list_products()
-# print(products_page)
-
 for item in products_page.products:
-    print(item.product_id)
+    print(item.product_id, item.price, item.quote_currency_id)
 
 
 # Creating a limit order.
