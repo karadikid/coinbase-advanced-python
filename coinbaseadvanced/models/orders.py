@@ -2,14 +2,14 @@
 Object models for order related endpoints args and response.
 """
 
-from typing import List
+import json
 from datetime import datetime
 from enum import Enum
+from typing import List
+
+import requests
 
 from coinbaseadvanced.models.error import CoinbaseAdvancedTradeAPIError
-
-import json
-import requests
 
 
 class Side(Enum):

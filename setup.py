@@ -3,6 +3,7 @@ Package Setup Configurations.
 """
 
 from setuptools import setup
+
 import coinbaseadvanced
 
 requirements = [

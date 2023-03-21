@@ -2,14 +2,18 @@
 API Client for Coinbase Advanced Trade endpoints.
 """
 
-from typing import List
-from datetime import datetime, timedelta
-
-import hmac
 import hashlib
-import time
+import hmac
 import json
+import os
+import time
+from datetime import datetime, timedelta
+from typing import List
+
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from coinbaseadvanced.models.fees import TransactionsSummary
 from coinbaseadvanced.models.products import ProductsPage, Product, CandlesPage,\

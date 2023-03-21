@@ -3,6 +3,7 @@ Object models for fees related endpoints args and response.
 """
 
 import json
+
 import requests
 
 from coinbaseadvanced.models.error import CoinbaseAdvancedTradeAPIError

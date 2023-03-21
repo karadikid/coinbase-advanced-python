@@ -3,9 +3,10 @@ Object models for account related endpoints args and response.
 """
 
 import json
-from uuid import UUID
 from datetime import datetime
 from typing import List
+from uuid import UUID
+
 import requests
 
 from coinbaseadvanced.models.error import CoinbaseAdvancedTradeAPIError

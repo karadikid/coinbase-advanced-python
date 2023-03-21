@@ -3,6 +3,7 @@ Encapsulating error types.
 """
 
 import json
+
 import requests
 
 

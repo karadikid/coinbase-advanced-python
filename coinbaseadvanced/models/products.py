@@ -2,15 +2,15 @@
 Object models for products related endpoints args and response.
 """
 
-from uuid import UUID
+import json
 from datetime import datetime
-from typing import List
 from enum import Enum
+from typing import List
+from uuid import UUID
+
+import requests
 
 from coinbaseadvanced.models.error import CoinbaseAdvancedTradeAPIError
-
-import json
-import requests
 
 
 class ProductType(Enum):
